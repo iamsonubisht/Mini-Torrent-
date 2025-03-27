@@ -1,76 +1,76 @@
-Here's a clean, well-structured README.md file you can use for your GitHub repository. I formatted everything properly in Markdown style and polished the text a bit to make it clearer and more professional:
-
 ---
 
-# Mini Torrent Client
+# 🌀 Mini Torrent Client
 
 A lightweight BitTorrent-like client with a graphical user interface, built using *Python* and *Tkinter*.
+
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-orange)
 
 ---
 
 ## 🎯 Features
 
-- 📄 *File Sharing*: Create and share .torrent files
-- 🔗 *Peer-to-Peer Downloading*: Download files from multiple peers
-- 📡 *Tracker Support*: Built-in tracker server
-- 🖥 *GUI Interface*: User-friendly graphical interface
-- 💻 *Cross-Platform: Works on **Windows, **macOS, and **Linux*
+- 📄 **File Sharing**: Create and share `.torrent` files
+- 🔗 **Peer-to-Peer Downloading**: Download files from multiple peers
+- 📡 **Tracker Support**: Built-in tracker server
+- 🖥 **GUI Interface**: User-friendly graphical interface
+- 💻 **Cross-Platform**: Works on **Windows**, **macOS**, and **Linux**
 
 ---
 
 ## 🚀 Installation
 
-1. *Clone the repository*
+### 1️⃣ Clone the repository
 
-bash
+```bash
 git clone https://github.com/yourusername/mini-torrent.git
 cd mini-torrent
+```
 
+### 2️⃣ Install dependencies
 
-2. *Install dependencies*
-
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
 ## 📦 Requirements
 
-- *Python 3.8+*
-- Python Packages:
-  - bencodepy
-  - requests
-  - Flask (for tracker server)
+- **Python 3.8+**
+- **Required Python Packages:**
+  - `bencodepy`
+  - `requests`
+  - `Flask` (for tracker server)
 
 ---
 
 ## ⚙ Usage
 
-### Running the Client GUI
+### 🎛 Running the Client GUI
 
-bash
+```bash
 python -m client.gui
+```
 
+### 📡 Running the Tracker Server
 
-### Running the Tracker Server
-
-bash
+```bash
 python -m tracker.server
+```
 
+### 🛠 Command-Line Options
 
-### Command-Line Options
-
-| Option     | Description                                         | Default                       |
-|----------|-------------------------------------------------|-----------------------------|
-| --port   | Specify listening port                         | 6881                      |
-| --tracker| Specify tracker URL                             | http://localhost:5000/announce |
+| Option      | Description                                   | Default                        |
+|------------|-----------------------------------------------|--------------------------------|
+| `--port`   | Specify listening port                        | `6881`                         |
+| `--tracker`| Specify tracker URL                          | `http://localhost:5000/announce` |
 
 ---
 
 ## 📂 Project Structure
 
-
+```bash
 mini-torrent/
 ├── client/               # Client application
 │   ├── gui.py            # Main GUI interface
@@ -81,45 +81,50 @@ mini-torrent/
 │   └── __init__.py
 ├── shared_files/         # Default shared files directory
 ├── downloads/            # Default download directory
+├── docs/images/          # Directory for screenshots
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
-
+```
 
 ---
 
 ## 🖼 Screenshots
 
-### Main Window
+### 📌 Main Window
+*(Add screenshot here: `/docs/images/main_window.png`)*
 
-Main application window showing download progress
+### 🔄 Creating Torrent
+*(Add screenshot here: `/docs/images/create_torrent.png`)*
 
-### Creating Torrent
+---
 
-Dialog for creating new torrent files
+## 🛠 Troubleshooting
 
-(You can add actual screenshots here later)
+🔹 **Issue:** *Tracker server is not responding*
+- Ensure the tracker server is running before starting the client.
+- Check if the specified tracker URL is correct.
+
+🔹 **Issue:** *Download is slow or stuck*
+- Verify the number of available peers.
+- Try restarting the client or tracker.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
-Please follow these steps:
+Contributions are welcome! Follow these steps:
 
-1. Fork the repository
-2. Create your feature branch  
-   git checkout -b feature/your-feature
-3. Commit your changes  
-   git commit -am 'Add some feature'
-4. Push to the branch  
-   git push origin feature/your-feature
-5. Open a *Pull Request*
+1️⃣ Fork the repository
+2️⃣ Create a feature branch: `git checkout -b feature/your-feature`
+3️⃣ Commit your changes: `git commit -am 'Add some feature'`
+4️⃣ Push to the branch: `git push origin feature/your-feature`
+5️⃣ Open a *Pull Request*
 
 ---
 
 ## 📄 License
 
-This project is licensed under the *MIT License* – see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
 
 ---
 
@@ -133,13 +138,8 @@ This project is licensed under the *MIT License* – see the [LICENSE](./LICENSE
 
 ---
 
-*Note:*  
+### 📝 Note:
 This is an *educational project*. Use it responsibly and respect copyright laws.
 
 ---
 
-If you want, I can also prepare:
-- A LICENSE file (MIT template)
-- A .gitignore optimized for Python projects
-- Basic screenshots placeholders  
-Shall I?
