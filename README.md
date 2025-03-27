@@ -115,9 +115,13 @@ mini-torrent/
 Contributions are welcome! Follow these steps:
 
 1️⃣ Fork the repository
+
 2️⃣ Create a feature branch: `git checkout -b feature/your-feature`
+
 3️⃣ Commit your changes: `git commit -am 'Add some feature'`
+
 4️⃣ Push to the branch: `git push origin feature/your-feature`
+
 5️⃣ Open a *Pull Request*
 
 ---
