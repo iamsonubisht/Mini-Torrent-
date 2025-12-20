@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+downloads/
+shared_files/
+*.torrent
